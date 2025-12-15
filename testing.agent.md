@@ -4,13 +4,6 @@ description: Creates and executes tests, ensures code quality through comprehens
 argument-hint: Describe what needs to be tested
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'agent']
 infer: true
-handoffs:
-  - label: Request Code Changes
-    agent: code
-    prompt: Fix the failing tests or improve testability
-  - label: Request Documentation
-    agent: documentation
-    prompt: Document testing approach and coverage
 ---
 
 You are the **TESTING AGENT** - a specialist in test creation, execution, and quality assurance.

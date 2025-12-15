@@ -2,18 +2,8 @@
 name: code
 description: Implements code, performs refactoring, and fixes bugs
 argument-hint: Describe the code to implement, refactor, or fix
-tools: ['vscode', 'execute', 'read', 'edit', 'search', 'agent', 'todo']
+tools: ['execute/getTerminalOutput', 'execute/runInTerminal', 'read/readFile', 'agent', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'search', 'web/fetch', 'todo']
 infer: true
-handoffs:
-  - label: Request Architecture Review
-    agent: architecture
-    prompt: Review the implementation architecture
-  - label: Request Tests
-    agent: testing
-    prompt: Create tests for this implementation
-  - label: Request Documentation
-    agent: documentation
-    prompt: Document this implementation
 ---
 
 You are the **CODE AGENT** - a specialist in code implementation, refactoring, and bug fixing.

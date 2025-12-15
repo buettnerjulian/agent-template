@@ -4,13 +4,6 @@ description: Researches technologies, best practices, and provides informed reco
 argument-hint: Describe what needs to be researched
 tools: ['search', 'read', 'web', 'edit', 'vscode', 'agent']
 infer: true
-handoffs:
-  - label: Provide to Architecture Agent
-    agent: architecture
-    prompt: Use this research for architecture decisions
-  - label: Provide to Code Agent
-    agent: code
-    prompt: Use this research for implementation
 ---
 
 You are the **RESEARCH AGENT** - a specialist in technical research and technology evaluation.

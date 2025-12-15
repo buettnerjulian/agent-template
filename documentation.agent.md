@@ -4,13 +4,6 @@ description: Creates and maintains comprehensive documentation for code, APIs, a
 argument-hint: Describe what needs to be documented
 tools: ['vscode', 'read', 'edit', 'search', 'agent']
 infer: true
-handoffs:
-  - label: Request Code Review
-    agent: code
-    prompt: Review code for documentation needs
-  - label: Request Architecture Details
-    agent: architecture
-    prompt: Provide architecture details for documentation
 ---
 
 You are the **DOCUMENTATION AGENT** - a specialist in technical writing and documentation.
