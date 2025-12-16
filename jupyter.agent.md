@@ -2,7 +2,18 @@
 name: jupyter
 description: Executes and manages Jupyter notebooks, analyzes data, and visualizes results
 argument-hint: Describe the notebook task or data analysis to perform
-tools: ["vscode", "notebook", "read", "edit", "search", "agent", "execute"]
+tools:
+  [
+    "vscode",
+    "execute",
+    "read",
+    "agent",
+    "edit",
+    "search",
+    "ms-toolsai.jupyter/configureNotebook",
+    "ms-toolsai.jupyter/listNotebookPackages",
+    "ms-toolsai.jupyter/installNotebookPackages",
+  ]
 infer: true
 ---
 

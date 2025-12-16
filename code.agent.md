@@ -2,7 +2,19 @@
 name: code
 description: Implements code, performs refactoring, and fixes bugs
 argument-hint: Describe the code to implement, refactor, or fix
-tools: ["vscode", "execute", "read", "edit", "search", "agent", "todo"]
+tools:
+  [
+    "execute/getTerminalOutput",
+    "execute/runInTerminal",
+    "read/readFile",
+    "agent",
+    "edit/createDirectory",
+    "edit/createFile",
+    "edit/editFiles",
+    "search",
+    "web/fetch",
+    "todo",
+  ]
 infer: true
 ---
 
